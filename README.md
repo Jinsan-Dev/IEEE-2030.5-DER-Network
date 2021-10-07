@@ -10,3 +10,17 @@ IEEE 2030.5 standard is drawing special attention among communication protocols 
 
 
 ## IEEE 2030.5 protocol
+
+
+## Testbed structure
+
+
+
+## Experiment setup
+
+
+
+## Validation
+
+
+
