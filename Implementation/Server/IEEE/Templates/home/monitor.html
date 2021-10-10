@@ -1,0 +1,21 @@
+
+{% extends "home/base.html" %}
+{% load static %}
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+{% endblock scripts %}
+{% block content %}
+
+<article class="media content-section">
+    <div class="media-body">
+        <div class="device-metadata">
+            Reactive Power monitoring
+            <small class="text-muted">ESS</small>
+        </div>
+        <div class="container">
+            <img src="{% static 'graph/monitor.png' %}" alt="">
+        </div>
+    </div>
+</article>
+
+{% endblock content %}

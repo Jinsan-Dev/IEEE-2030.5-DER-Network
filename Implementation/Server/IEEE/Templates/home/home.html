@@ -1,0 +1,31 @@
+{% extends "home/base.html" %}
+{% block content %}
+<!--    {% for list in devices %}-->
+<!--    <article class="media content-section">-->
+<!--        <div class="media-body">-->
+<!--            <div class="device-metadata">-->
+<!--                <a class="mr-2" href="#">{{ list.mfModel }}</a>-->
+<!--                <small class="text-muted">Battery Status: {{ list.batteryStatus }}</small>-->
+<!--            </div>-->
+<!--            <h2><a class="device-title" href="#">Current Power Source: {{ list.currentPowerSource }}</a></h2>-->
+<!--            <p class="device-content">Changed Time: {{ list.changedTime }}</p>-->
+<!--        </div>-->
+<!--    </article>-->
+<!--    {% endfor %}-->
+    {% for list in devices %}
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="device-metadata">
+                <a class="mr-2" href="#">{{ list.mfModel }}</a>
+                <small class="text-muted">SFDI: {{ list.sfdi }}</small>
+            </div>
+            ESS - Reactive power: {{ list.ess_Qe }}<br>
+            Battery status: {{ list.batteryStatus }}<br>
+            Current power source: {{ list.currentPowerSource }}<br>
+            Passed time: {{ list.passedTime }}<br>
+            Control command: {{ list.command }}
+        </div>
+    </article>
+    {% endfor %}
+
+{% endblock content %}
