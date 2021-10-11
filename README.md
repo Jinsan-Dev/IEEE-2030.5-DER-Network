@@ -12,12 +12,14 @@ IEEE 2030.5 standard is drawing special attention among communication protocols 
 ## IEEE 2030.5 protocol
 
 
+
 ## Testbed structure
 
-
+![structure](https://user-images.githubusercontent.com/88572107/136767866-10c6db9c-9457-4429-b6e2-257c09f34f43.png)
 
 ## Experiment setup
 
+![그림1](https://user-images.githubusercontent.com/88572107/136767642-f89d0e36-ef7c-4940-b5bd-88fe5a106b75.png)
 
 
 ## Validation
