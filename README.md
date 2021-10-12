@@ -11,6 +11,13 @@ IEEE 2030.5 standard is drawing special attention among communication protocols 
 
 ## IEEE 2030.5 protocol
 
+IEEE 2030.5 standard defines an application protocol which provides an interface between the smart grid and users via internet and enables to manage the end user energy environment such as demand response, load control, price communication.
+
+IEEE 2030.5 was previously named the SEP and based on Zigbee Alliance as a metering communication solution for building energy devices. In 2013, SEP2 was originally developed after adopted and ratified by IEEE (i.e., IEEE 2030.5-2013). In 2016, CPUC chose this protocol as the default protocol for Rule 21. The revision, IEEE 2030.5-2018, provides an expanded feature set that supports all controls in IEEE 1547-2018.
+
+
+### Communication hierarchy in testbed
+![communication](https://user-images.githubusercontent.com/88572107/136975957-fd81d82d-e3c4-4a32-a486-984ca7fd19b6.PNG)
 
 
 ## Testbed structure
@@ -20,6 +27,8 @@ IEEE 2030.5 standard is drawing special attention among communication protocols 
 ## Experiment setup
 
 ![그림1](https://user-images.githubusercontent.com/88572107/136767642-f89d0e36-ef7c-4940-b5bd-88fe5a106b75.png)
+
+## Cloud based DERMS web page
 
 
 ## Validation
