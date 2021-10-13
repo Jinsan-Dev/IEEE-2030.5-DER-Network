@@ -30,6 +30,9 @@ IEEE 2030.5 was previously named the SEP and based on Zigbee Alliance as a meter
 
 ## Cloud based DERMS web page
 
+<img width="672" alt="Screen Shot 2021-07-14 at 3 04 03 AM" src="https://user-images.githubusercontent.com/88572107/137153104-f471fd73-78dc-4fea-a65f-4fdf1f4e1a3f.png">
+
+Here we can see data from OPAL-RT
 
 ## Validation
 
