@@ -24,6 +24,13 @@ IEEE 2030.5 was previously named the SEP and based on Zigbee Alliance as a meter
 
 ![structure](https://user-images.githubusercontent.com/88572107/136767866-10c6db9c-9457-4429-b6e2-257c09f34f43.png)
 
+## Distributed Energy Resource
+
+<img width="525" alt="Screen Shot 2021-10-14 at 11 37 05 PM" src="https://user-images.githubusercontent.com/88572107/137339582-03409680-eb43-4978-bb1c-5418ed92fa75.png">
+
+
+#### A DER system in IEEE 13 node test feeder circuit, monitored and controlled by a DERMS.
+
 ## Experiment setup
 
 ![그림1](https://user-images.githubusercontent.com/88572107/136767642-f89d0e36-ef7c-4940-b5bd-88fe5a106b75.png)
@@ -36,5 +43,7 @@ Here we can see data from OPAL-RT
 
 ## Validation
 
+### Encrypted traffic with TLS 1.3 captured by WireShark
 
+![wireshark](https://user-images.githubusercontent.com/88572107/137153324-4e37f9be-f4df-4cab-ad39-8cca0fe715c2.png)
 
