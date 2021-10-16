@@ -28,6 +28,9 @@ IEEE 2030.5 was previously named the SEP and based on Zigbee Alliance as a meter
 
 <img width="525" alt="Screen Shot 2021-10-14 at 11 37 05 PM" src="https://user-images.githubusercontent.com/88572107/137339582-03409680-eb43-4978-bb1c-5418ed92fa75.png">
 
+Figure above illustrates a DER system in IEEE 13 Node Test Feeder circuit where the DER system consists of multiple smart inverters, a swing bus, a wind turbine (WT), a Photovoltaic (PV), an energy storage system (ESS) and loads. The system bus frequency is 60Hz and the nominal voltage is 4.16kV. Smart inverters of WT and PV perform maximum power point tracking (MPPT) control. The WT of the 634 bus is applied with the permanent magnet synchronous generator (PMSG) model and the rated power is 2.2 MVA. The PV is located on bus 675 and the rated output is 1MW. The ESS capacity of bus 680 is 1 MWh and a lithium-ion battery model is used. Except for the bus where the generators are connected, the resistive, inductive, and capacitive loads are evenly connected to the other buses, where the real power demand of the distribution system is 3.5 MW; the reactive power demand of inductive loads is 2.102 MVAR; and the reactive power demand of capacitive loads is 0.7 MVAR. The impedance values between the buses are chosen based on the IEEE 13 bus system. The DERM system model is implemented in MATLAB/Simulink. 
+
+
 
 #### A DER system in IEEE 13 node test feeder circuit, monitored and controlled by a DERMS.
 
