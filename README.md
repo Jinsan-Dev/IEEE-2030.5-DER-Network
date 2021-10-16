@@ -47,3 +47,5 @@ Here we can see data from OPAL-RT
 
 ![wireshark](https://user-images.githubusercontent.com/88572107/137153324-4e37f9be-f4df-4cab-ad39-8cca0fe715c2.png)
 
+
+DER Gateways (i.e., IP: 165.246.223.92) and DERMS cloud server (i.e., IP: 69.164.199.161) are connected. Figure shows that the screenshot of the encrypted exchanging data between them by TLS 1.3 in WireShark. We can see all the data is encrypted and just showed as Application Data. Also, it is expected that TLS v1.3 provides fast processing time than TLS v1.2 since the number of round trips has been reduced in TLS v1.3.
