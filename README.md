@@ -42,7 +42,9 @@ Figure above illustrates a DER system in IEEE 13 Node Test Feeder circuit where 
 
 <img width="672" alt="Screen Shot 2021-07-14 at 3 04 03 AM" src="https://user-images.githubusercontent.com/88572107/137153104-f471fd73-78dc-4fea-a65f-4fdf1f4e1a3f.png">
 
-Here we can see data from OPAL-RT
+
+Figure above shows the custom-built DERMS cloud server web page. DERMS server is implemented on a virtual private server. The server runs on Ubuntu 18.04 and uses Apache2 HTTP server project to host the server. Python 3.6.9 and Django REST Framework are used to meet the technical components of IEEE 2030.5-2018 standard as mentioned insection II. In server, real-time DER system data such as reactive power or power factor are stored in local SQLite3 database. Such data are linked with identification data like sfdi (Short-form device identifier). These data are visualized in server as a graph in real time using Python library named pyplot from matplotlib.
+
 
 ## Validation
 
