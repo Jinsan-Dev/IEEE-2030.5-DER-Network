@@ -38,6 +38,9 @@ Figure above illustrates a DER system in IEEE 13 Node Test Feeder circuit where 
 
 ![그림1](https://user-images.githubusercontent.com/88572107/136767642-f89d0e36-ef7c-4940-b5bd-88fe5a106b75.png)
 
+Figure above shows the experimental setup to perform  experiments to validate the proposed testbed. To build a real time DER physical system simulator and gateway OPAL-RT’s OP4510 and  Raspberry pi 4B are used. A DERMS cloud server is built in cloud provided by Linode. The Root-CA public key is provided by Let’s Encrypt. Three test cases are  performed: 1) TLS encryption and its performance using  Wireshark to monitor in-transit DER network data; 2) real￾time DER system data monitoring by DERMS server; 3) and impact of control command provided by DERMS. 
+
+
 ## Cloud based DERMS web page
 
 <img width="672" alt="Screen Shot 2021-07-14 at 3 04 03 AM" src="https://user-images.githubusercontent.com/88572107/137153104-f471fd73-78dc-4fea-a65f-4fdf1f4e1a3f.png">
